@@ -9,7 +9,7 @@
   margin: 10px;
 }
 
-.box{ 
+.boxf{ 
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
