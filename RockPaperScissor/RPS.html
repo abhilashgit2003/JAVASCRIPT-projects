@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+  <h1>ROCK PAPER SCISSOR</h1>
+
+  <button onclick="
+  alert('You chose Rock');
+  let computerChoice=Math.random()*3;
+  if(computerChoice>0 && computerChoice<=1){
+  computerChoice='Rock';
+  alert('Computer chose Rock');
+  }
+  else if(computerChoice>1 && computerChoice<=2){
+  computerChoice='Paper';
+  alert('Computer chose Paper');
+  }
+  else{
+  computerChoice='Scissor';
+  alert('Computer chose Scissor');
+  }
+
+  if(computerChoice==='Rock'){
+  alert(`It's a tie`);
+  } else if(computerChoice==='Paper'){
+   alert('Computer won');}
+   else{
+   alert('You won');
+   }
+  ">Rock</button>
+
+  <button onclick="
+  alert('You chose Paper');
+  computerChoice=Math.random()*3;
+  if(computerChoice>0 && computerChoice<=1){
+  computerChoice='Rock';
+  alert('Computer chose Rock');
+  }
+  else if(computerChoice>1 && computerChoice<=2){
+  computerChoice='Paper';
+  alert('Computer chose Paper');
+  }
+  else{
+  computerChoice='Scissor';
+  alert('Computer chose Scissor');
+  }
+
+  if(computerChoice==='Paper'){
+  alert(`It's a tie`);
+  } else if(computerChoice==='Scissor'){
+   alert('Computer won');}
+   else{
+   alert('You won');
+   }
+  ">Paper</button>
+
+  <button
+  onclick="
+  alert('You chose Scissor');
+  computerChoice=Math.random()*3;
+  if(computerChoice>0 && computerChoice<=1){
+  computerChoice='Rock';
+  alert('Computer chose Rock');
+  }
+  else if(computerChoice>1 && computerChoice<=2){
+  computerChoice='Paper';
+  alert('Computer chose Paper');
+  }
+  else{
+  computerChoice='Scissor';
+  alert('Computer chose Scissor');
+  }
+
+  if(computerChoice==='Scissor'){
+  alert(`It's a tie`);
+  } else if(computerChoice==='Rock'){
+   alert('Computer won');}
+   else{
+   alert('You won');
+   }
+  ">Scissor</button>
+
+
+  <script src="RPS.js"></script>
+</body>
+</html>
