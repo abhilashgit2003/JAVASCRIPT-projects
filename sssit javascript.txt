@@ -1,0 +1,12 @@
+Java script
+------------
+
+console.log for printing.
+
+alert
+-------
+it is pre defined funcn in javascript which pop ups the information at browser.
+
+variable types
+--------------
+

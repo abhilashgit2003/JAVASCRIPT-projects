@@ -1,0 +1,24 @@
+.calc{
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 330px;
+  width: 190px;
+}
+
+.inp{
+  margin: 10px;
+}
+
+.box{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 7px;
+}
+
+.btn{
+  width: 40px;
+  height: 40px;
+  margin: 0px 3px;
+}
+

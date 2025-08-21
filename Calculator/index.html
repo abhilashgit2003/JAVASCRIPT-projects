@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calc">
+  <input class="inp" type="text" readonly>
+
+  <div class="box">
+    <button class="btn" onclick="display='';
+    document.querySelector('.inp').value=display;">c</button>
+    <button class="btn" onclick="display=display+'0';
+    document.querySelector('.inp').value=display;">0</button>
+    
+    <button class="btn" onclick="display=display+'1';
+    document.querySelector('.inp').value=display;">1</button>
+    
+    <button class="btn" onclick="display=display+'2';
+    document.querySelector('.inp').value=display;">2</button>
+    
+    <button class="btn" onclick="display=display+'3';
+    document.querySelector('.inp').value=display;">3</button>
+    
+    <button class="btn" onclick="display=display+'4';
+    document.querySelector('.inp').value=display;">4</button>
+    
+    <button class="btn" onclick="display=display+'5';
+    document.querySelector('.inp').value=display;">5</button>
+    
+    <button class="btn" onclick="display=display+'6';
+    document.querySelector('.inp').value=display;">6</button>
+    
+    <button class="btn" onclick="display=display+'7';
+    document.querySelector('.inp').value=display;">7</button>
+    
+    <button class="btn" onclick="display=display+'8';
+    document.querySelector('.inp').value=display;">8</button>
+    
+    <button class="btn" onclick="display=display+'9';
+    document.querySelector('.inp').value=display;">9</button>
+    
+    <button class="btn" onclick="display=display+'+';
+    document.querySelector('.inp').value=display;">+</button>
+    
+    <button class="btn" onclick="display=display+'-';
+    document.querySelector('.inp').value=display;">-</button>
+    
+    <button class="btn" onclick="display=display+'*';
+    document.querySelector('.inp').value=display;">*</button>
+    
+    <button class="btn" onclick="display=display+'/';
+    document.querySelector('.inp').value=display;">/</button>
+    
+    <button class="btn" onclick="display= eval(display) ;
+    document.querySelector('.inp').value=display;">=</button>
+  </div>
+</div>
+  
+  <script src="cal.js"></script>
+</body>
+</html>
