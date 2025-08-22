@@ -27,11 +27,13 @@
 
   if(computerChoice==='Rock'){
   alert(`It's a tie`);
+  alert(`win: ${score.win} lost: ${score.lost} tie: ${++score.tie}`);
   } else if(computerChoice==='Paper'){
-   alert('Computer won');}
+   alert('Computer won');
+   alert(`win: ${score.win} lost: ${++score.lost} tie: ${score.tie}`);}
    else{
    alert('You won');
-   }
+   alert(`win: ${++score.win} lost: ${score.lost} tie: ${score.tie}`);}
   ">Rock</button>
 
   <button onclick="
@@ -52,10 +54,13 @@
 
   if(computerChoice==='Paper'){
   alert(`It's a tie`);
+  alert(`win: ${score.win} lost: ${score.lost} tie: ${++score.tie}`);
   } else if(computerChoice==='Scissor'){
-   alert('Computer won');}
+   alert('Computer won');
+   alert(`win: ${score.win} lost: ${++score.lost} tie: ${score.tie}`);}
    else{
    alert('You won');
+   alert(`win: ${++score.win} lost: ${score.lost} tie: ${score.tie}`);
    }
   ">Paper</button>
 
@@ -78,11 +83,13 @@
 
   if(computerChoice==='Scissor'){
   alert(`It's a tie`);
+  alert(`win: ${score.win} lost: ${score.lost} tie: ${++score.tie}`);
   } else if(computerChoice==='Rock'){
-   alert('Computer won');}
+   alert('Computer won');
+   alert(`win: ${score.win} lost: ${++score.lost} tie: ${score.tie}`);}
    else{
    alert('You won');
-   alert('hurray');
+   alert(`win: ${++score.win} lost: ${score.lost} tie: ${score.tie}`);
    }
   ">Scissor</button>
 
