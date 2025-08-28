@@ -1,7 +1,34 @@
 // console.log('hello world');
-var ch;
-ch="adrweg";
-// console.log(ch);
+// var ch;
+// ch="adrweg";
+// // console.log(ch);
 
-let cc="adfwf";
-console.log(cc);
+// let cc="adfwf";
+// console.log(cc);
+
+// let product={
+//   name:"apple",
+//   price:34454,
+// };
+
+// localStorage.setItem('price','34454');
+
+// localStorage.setItem('product',JSON.stringify(product));
+// console.log(product);
+// console.log(JSON.parse(localStorage.getItem('product')));
+
+// localStorage.removeItem('price');
+// let buttonn=document.createElement('button');
+// buttonn.innerText="hello";
+// document.querySelector('.mydiv').appendChild(buttonn);
+
+let no=0;
+function onclk(){
+  
+  no+=1;
+  document.querySelector('.mybtn').innerText=no;
+}
+
+
+
+
