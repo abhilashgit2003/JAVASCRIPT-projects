@@ -1,0 +1,15 @@
+.btn{
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.btnsize{
+  height: 60px;
+  width: 200px;
+  font-size: 30px;
+}

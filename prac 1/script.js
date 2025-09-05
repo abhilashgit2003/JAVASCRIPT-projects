@@ -22,13 +22,20 @@
 // buttonn.innerText="hello";
 // document.querySelector('.mydiv').appendChild(buttonn);
 
-let no=0;
-function onclk(){
+// let no=0;
+// function onclk(){
   
-  no+=1;
-  document.querySelector('.mybtn').innerText=no;
+//   no+=1;
+//   document.querySelector('.mybtn').innerText=no;
+// }
+let btn=document.querySelector('.btn');
+btn.addEventListener('click',event => {
+  setTimeout(clickme,3000);
+})
+
+function clickme(){
+  let btn=document.querySelector('.btn');
+  btn.classList.add('btnsize');
 }
-
-
 
 
