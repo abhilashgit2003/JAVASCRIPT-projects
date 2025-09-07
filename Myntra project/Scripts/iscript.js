@@ -1,8 +1,24 @@
-displayItemsOnHomePage();
-
 let bagItems=[];
+onLoad();
+
+function onLoad(){
+  displayItemsOnHomePage();
+  displayBagIcon();
+}
+
 function addToBag(itemId){
   bagItems.push(itemId);
+  displayBagIcon();
+}
+
+function displayBagIcon(){
+  let bagItemCountElement=document.querySelector('.bag-item-count');
+  if(bagItems.length>0){
+  bagItemCountElement.style.visibility='visible';
+  bagItemCountElement.innerText =bagItems.length;
+}else{
+  bagItemCountElement.style.visibility='hidden';
+}
 }
 
 function displayItemsOnHomePage(){
