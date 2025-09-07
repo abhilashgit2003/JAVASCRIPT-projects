@@ -31,7 +31,9 @@
 let btn=document.querySelector('.btn');
 btn.addEventListener('click',event => {
   setTimeout(clickme,3000);
-})
+});
+// btn.addEventListener('click',event => {
+// clickme();});
 
 function clickme(){
   let btn=document.querySelector('.btn');
