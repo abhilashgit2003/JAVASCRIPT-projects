@@ -28,16 +28,20 @@
 //   no+=1;
 //   document.querySelector('.mybtn').innerText=no;
 // }
-let btn=document.querySelector('.btn');
-btn.addEventListener('click',event => {
-  setTimeout(clickme,3000);
-});
+// let btn=document.querySelector('.btn');
+// btn.addEventListener('click',event => {
+//   setTimeout(clickme,3000);
+// });
 // btn.addEventListener('click',event => {
 // clickme();});
 
-function clickme(){
-  let btn=document.querySelector('.btn');
-  btn.classList.add('btnsize');
-}
+// function clickme(){
+//   let btn=document.querySelector('.btn');
+//   btn.classList.add('btnsize');
+// }
+
+// let arr=[1,2,3,4];
+// localStorage.setItem('item',arr);
+// console.log(typeof item);
 
 
